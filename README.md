@@ -74,14 +74,14 @@ GET - localhost:3000/company/7/teamlead
 ### MYSQL database used
 
 Please create database and give relevant permission
-
+```
 DB Name : testdb
 DB User: testuser
 Password: testpw
-
+```
 
 Two tables created:
-
+```
 1. Company
 +----------------+--------------+------+-----+-------------------+----------------+
 | Field          | Type         | Null | Key | Default           | Extra          |
@@ -92,7 +92,8 @@ Two tables created:
 | address        | varchar(255) | NO   |     | NULL              |                |
 | inception_date | timestamp    | NO   |     | CURRENT_TIMESTAMP |                |
 +----------------+--------------+------+-----+-------------------+----------------+
-
+```
+```
 2. Team_Lead
 
 +------------+--------------+------+-----+---------+----------------+
@@ -102,3 +103,4 @@ Two tables created:
 | name       | varchar(255) | YES  |     | NULL    |                |
 | company_id | int(11)      | YES  |     | NULL    |                |
 
+```
