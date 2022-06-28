@@ -80,7 +80,7 @@ DB User: testuser
 Password: testpw
 ```
 
-Two tables created:
+Tables will be automatically created :
 ```
 1. Company
 +----------------+--------------+------+-----+-------------------+----------------+
