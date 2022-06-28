@@ -23,7 +23,7 @@ import { UsersModule } from './models/users/users.module';
       entities: [Company],
       synchronize: false,
       autoLoadEntities: true,
-      logging: true
+      logging: true,
     }),
     CompanyModule,
     TeamleadModule,
